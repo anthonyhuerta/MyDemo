@@ -1,0 +1,35 @@
+apiVersion: v2
+name: postgresql-ha
+version: 7.12.4
+description: Chart for PostgreSQL with HA architecture (using Replication Manager (repmgr) and Pgpool).
+home: https://github.com/bitnami/charts/tree/master/bitnami/postgresql-ha
+icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
+sources:
+- https://github.com/bitnami/charts/tree/master/bitnami/postgresql-ha
+keywords:
+  - postgresql
+  - repmgr
+  - pgpool
+  - postgres
+  - database
+  - sql
+  - replication
+  - cluster
+  - high availability
+maintainers:
+- name: abhaysr
+  email: arao@womply.com
+- name: anthonyhuerta
+  email: ahuerta@womply.com
+- name: eytanhanig
+  email: ehanig@womply.com
+- name: kdas-womply
+  email: kdas@womply.com
+- name: pepelo
+  email: nabil@womply.com
+- name: ssingh-womply
+  email: ssing@womply.com
+dependencies:
+- name: postgresql-ha
+  version: 8.0.0
+  repository: https://charts.bitnami.com/bitnami
