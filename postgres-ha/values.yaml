@@ -1,0 +1,7 @@
+custom:
+  postgres:
+    existingSecret: {}
+  pgpool:
+    customUsersSecret: {}
+    existingSecret: {}
+  quaySecrets: {}
